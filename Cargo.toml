@@ -57,3 +57,6 @@ opt-level = 3
 opt-level = 3
 [profile.bench.package.yada]
 opt-level = 3
+
+[patch.crates-io]
+ureq = { git = "https://github.com/LinHeLurking/ureq.git", branch = "proxy" }
